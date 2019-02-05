@@ -20,3 +20,6 @@ The longitudinal target velocity was set in waypoint_updater node. This node det
 
 ### DBW(Drive-By-Wire) Node
 This node finally calculates throttle, brake and steering angle to follow longitudinal and lateral trajectory simultaneously. We used PID controller to calculate throttle and brake based on the difference between the current velocity and the target velocity. We also use PID controller based on cross-track error (cte) to calculate appropriate steering command.
+
+#### Individual submission
+Jude Dike - dikejude49@gmail.com
